@@ -17,11 +17,23 @@ function driverNamesWithRevenueOver(drivers, revenue){
     return driversWithRevenueOver(drivers, revenue).map(driver => driver.name);
 }
 
+// function exactMatch(drivers, revenue) {
+//   return drivers.filter(driver => driver, )
+// }
 
 
+// 
+// function exactMatch(drivers, {key: value}) {
+//   return drivers.filter(function(driver){
+//   return drivers.filter(attributeFilter);
+// }
 
 
-
+function attributeFilter(driver) {
+  if (driver.hasOwnProperty('key') && driver['key'] === value) {
+    return driver;
+  }
+}
 
 
 
