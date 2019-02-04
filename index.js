@@ -2,10 +2,10 @@
 
 
 function driversWithRevenueOver(name, revenue) {
-  
+
 }
 function driversWithRevenueOver(drivers, revenue) {
-  return drivers.filter(function(driver){ 
+  return drivers.filter(function(driver){
     return parseInt(driver.revenue) > parseInt(revenue)
   });
 }
