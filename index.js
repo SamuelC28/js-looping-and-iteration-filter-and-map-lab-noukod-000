@@ -1,18 +1,16 @@
 // // Code your solution here:
 
-
-function driversWithRevenueOver(name, revenue) {
-
-}
 function driversWithRevenueOver(drivers, revenue) {
   return drivers.filter(function(driver){
     return parseInt(driver.revenue) > parseInt(revenue)
   });
 }
 
-// function driverNamesWithRevenueOver(drivers, revenue) {
-//   return drivers.filter(function(driver){
-//     return driver.revenue > parseInt(revenue)}).map(function(driver) {return driver.name});
+
+function driverNamesWithRevenueOver(drivers, revenue) {
+  return drivers.filter(function(driver){
+  return driver.revenue > parseInt(revenue)}).map(function(driver) {return driver.name});
+}
 
 
 
@@ -26,11 +24,7 @@ function driversWithRevenueOver(drivers, revenue) {
 
 
 
-// function driversWithRevenueOver(drivers, revenue){
-//     return drivers.filter(function (driver) {
-//         return driver.revenue > revenue;
-//     });
-// }
+
 //
 // function driverNamesWithRevenueOver(drivers, revenue){
 //     return driversWithRevenueOver(drivers,revenue).map(driver => driver.name);
