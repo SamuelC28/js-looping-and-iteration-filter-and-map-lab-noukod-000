@@ -18,6 +18,9 @@ function driverNamesWithRevenueOver(drivers, revenue) {
   return driverNamesWithRevenueOver(drivers, revenue).map(driver => driver.name);
 }
 
+function driverNamesWithRevenueOver(drivers, revenue){
+    return driversWithRevenueOver(drivers, revenue).map(driver => driver.name);
+}
 
 
 
@@ -30,9 +33,6 @@ function driverNamesWithRevenueOver(drivers, revenue) {
 
 
 
-// function driverNamesWithRevenueOver(drivers, revenue){
-//     return driversWithRevenueOver(drivers,revenue).map(driver => driver.name);
-// }
 //
 // function exactMatch(drivers, objectSpec){
 //     return drivers.filter(function (driver) {
