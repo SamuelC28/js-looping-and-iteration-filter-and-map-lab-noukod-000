@@ -1,19 +1,31 @@
 // // Code your solution here:
-const drivers = [];
-const extendedDrivers = [];
-// function findMatching(drivers, word){
-//     return drivers.filter(driver => driver.toLowerCase() == word.toLowerCase());
-// }
-//
-// function fuzzyMatch(drivers, partialWrold){
-//     return drivers.filter(function (driver){return driver.slice(0, partialWrold.length) == partialWrold});
-// }
-//
-// function matchName(drivers, word){
-//     return drivers.filter(function (driver){return driver["name"].match(word)});
-// }
-//
-// ...
+
+
+function driversWithRevenueOver(name, revenue) {
+  
+}
+function driversWithRevenueOver(drivers, revenue) {
+  return drivers.filter(function(driver){ 
+    return parseInt(driver.revenue) > parseInt(revenue)
+  });
+}
+
+// function driverNamesWithRevenueOver(drivers, revenue) {
+//   return drivers.filter(function(driver){
+//     return driver.revenue > parseInt(revenue)}).map(function(driver) {return driver.name});
+
+
+
+
+
+
+
+
+
+
+
+
+
 // function driversWithRevenueOver(drivers, revenue){
 //     return drivers.filter(function (driver) {
 //         return driver.revenue > revenue;
