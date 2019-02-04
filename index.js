@@ -29,9 +29,9 @@ function driverNamesWithRevenueOver(drivers, revenue){
 // }
 
 
-function attributeFilter(driver) {
+function exactMatch(drivers, revebue) {
   if drivers.filter(function (driver)) {
-    return driver.hasOwnProperty(Object.keys(objectSpec)[0] ==Object.values(objectSpec)[0];
+    return driver.hasOwnProperty(Object.keys(objectSpec)[0] == Object.values(objectSpec)[0];
   }
 }
 
