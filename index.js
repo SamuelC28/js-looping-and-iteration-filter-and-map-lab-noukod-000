@@ -12,11 +12,6 @@ function driverNamesWithRevenueOver(drivers, revenue) {
   return driver.revenue > parseInt(revenue)}).map(function(driver) {return driver.name});
 }
 
-function driverNamesWithRevenueOver(drivers, revenue) {
-  // return drivers.filter(function(driver){
-  //   return driver.revenue > parseInt(revenue)}).map(function(driver) {return driver.name});
-  return driverNamesWithRevenueOver(drivers, revenue).map(driver => driver.name);
-}
 
 function driverNamesWithRevenueOver(drivers, revenue){
     return driversWithRevenueOver(drivers, revenue).map(driver => driver.name);
